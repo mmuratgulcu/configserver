@@ -13,7 +13,7 @@ accounts:
   message: "Welcome to EazyBank Account Service"
   contactDetails:
     name: "EazyBank Support"
-    email: "222af4d894d05c00f10f87cdc42be824133b1f11f8090646abc98676572327043bd7856555550415c336e3a06821ac47"
+    email: "{cipher}222af4d894d05c00f10f87cdc42be824133b1f11f8090646abc98676572327043bd7856555550415c336e3a06821ac47"
   onCallSupport:
     -(555) 123-4567
     -(555) 987-6543
