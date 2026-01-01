@@ -12,7 +12,7 @@ build:
 accounts:
   message: "Welcome to EazyBank Account Service - QA"
   contactDetails:
-    name: "EazyBank Support-3"
+    name: "EazyBank Support-4"
     email: "{cipher}9be3805283a8308460deab7bc1ef111c76c5defaa79a82d2f0bc9bc6a74232852a5d8f8cbfab6c2c5bacb47b39610d88"
   onCallSupport:
     -(555) 123-4567
