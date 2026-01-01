@@ -24,7 +24,7 @@ build:
   version: "1.0.0"
 
 accounts:
-  message: "Welcome to EazyBank Account Service"
+  message: "Welcome to EazyBank Account Service - DEFAULT"
   contactDetails:
     name: "EazyBank Support"
     email: "deneme@gmail.com"
