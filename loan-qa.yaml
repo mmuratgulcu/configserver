@@ -1,0 +1,10 @@
+server:
+  port: 8092
+
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0.0"

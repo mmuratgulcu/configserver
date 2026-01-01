@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0.0"
+
+accounts:
+  message: "Welcome to EazyBank Account Service"
+  contactDetails:
+    name: "EazyBank Support"
+    email: "deneme@gmail.com"
+  onCallSupport:
+    -(555) 123-4567
+    -(555) 987-6543

@@ -1,0 +1,10 @@
+server:
+    port: 9001
+
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "3.0.0"
