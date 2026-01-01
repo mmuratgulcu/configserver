@@ -10,7 +10,7 @@ build:
   version: "3.0.0"
 
 accounts:
-  message: "Welcome to EazyBank Account Service"
+  message: "Welcome to EazyBank Account Service - PROD"
   contactDetails:
     name: "EazyBank Support"
     email: "deneme@gmail.com"
