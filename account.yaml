@@ -18,6 +18,12 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 ## Configuration Management uygulaması için
 
 build:
