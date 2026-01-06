@@ -33,7 +33,7 @@ management:
         include: "*"
 
 accounts:
-  message: "Welcome to EazyBank Loan Service - DEFAULT"
+  message: "Welcome to EazyBank Service - DEFAULT"
   contactDetails:
     name: "EazyBank Support"
     email: "deneme@gmail.com"
