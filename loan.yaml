@@ -20,3 +20,9 @@ spring:
 
 build:
   version: "1.0.0"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
