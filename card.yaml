@@ -31,3 +31,12 @@ management:
     web:
       exposure:
         include: "*"
+
+accounts:
+  message: "Welcome to EazyBank Card Service - DEFAULT"
+  contactDetails:
+    name: "EazyBank Support"
+    email: "deneme@gmail.com"
+  onCallSupport:
+    -(555) 123-4567
+    -(555) 987-6543
