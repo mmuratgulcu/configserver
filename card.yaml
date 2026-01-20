@@ -44,7 +44,7 @@ management:
     env:
       enabled: true
 
-card:
+cards:
   message: "Welcome to Card Service - DEFAULT"
   contactDetails:
     name: "EazyBank Support"
