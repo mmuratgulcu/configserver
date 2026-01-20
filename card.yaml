@@ -19,7 +19,7 @@ build:
 
 info:
   app:
-    name: "account"
+    name: "card"
     description: "Eazy Bank Accounts Application"
     version: "1.0.0"
 
