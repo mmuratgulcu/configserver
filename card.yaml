@@ -17,13 +17,34 @@ spring:
 build:
   version: "1.0.0"
 
+info:
+  app:
+    name: "account"
+    description: "Eazy Bank Accounts Application"
+    version: "1.0.0"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+  endpoint:
+    shutdown:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
 
-accounts:
+card:
   message: "Welcome to Card Service - DEFAULT"
   contactDetails:
     name: "EazyBank Support"
