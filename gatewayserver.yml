@@ -4,9 +4,12 @@ server:
 spring:
   cloud:
     gateway:
-      discovery:
-        locator:
-          enabled: true
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+              lowerCaseServiceId: true
 
 eureka:
   instance:
@@ -24,7 +27,7 @@ management:
         include: "*"
   endpoint:
     gateway:
-      enabled: true
+      access: unrestricted
   info:
     env:
       enabled: true
