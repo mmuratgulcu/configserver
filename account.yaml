@@ -2,6 +2,10 @@ server:
   port: 8080
 
 spring:
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/accountsdb
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -11,6 +15,14 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      permittedNumberOfCallsInHalfOpenState: 2
+      waitDurationInOpenState: 10s
+      failureRateThreshold: 50
 
 management:
   endpoints:
