@@ -24,6 +24,13 @@ resilience4j.circuitbreaker:
       waitDurationInOpenState: 10s
       failureRateThreshold: 50
 
+resilience4j.ratelimiter:
+  configs:
+    default:
+      timeoutDuration: 1000
+      limitRefreshPeriod: 5000
+      limitForPeriod: 1
+
 resilience4j.retry:
   configs:
     default:
